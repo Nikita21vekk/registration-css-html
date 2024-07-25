@@ -1,0 +1,91 @@
+/* подключение шрифтов */
+@import url("./fonts.css");
+
+/* сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+/* редактирование ссылок */
+a {
+    text-decoration: underline;
+    color: #263238e2;
+}
+/* body {
+    background: linear-gradient(to right, #FC466B, #3F5EFB);
+} 
+ /* Заголовок */
+.title {
+    margin-bottom: 36px;
+    font-size: 24px;
+    color: #263238;
+    
+}
+/* Ввод данных */
+input {
+    display: block;
+    padding: 10px 12px;
+    border-radius: 7px;
+    border: 1px solid #26323884;  
+    width: 232px;
+    height: 56px;
+    outline: none;
+    transition: 0.5s;
+}
+input:focus {
+    border: 2px solid #1BB55C;
+}
+.form {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 26px;
+}
+
+.form__group {
+    position: relative;
+}
+label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    padding: 0 2px;
+    color: #263238;
+    font-size: 12px;
+}
+/* изменение цвета placeholder */
+::-webkit-input-placeholder {
+    color: #263238;
+    font-size: 16px;
+    
+}
+/* изменение цвета label при фокусировании */
+.form__group:focus-within label {
+    color: #1BB55C;
+}
+.wrapper {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 602px;
+    height: 559px;
+    padding: 0 56px;
+
+}
+.input__text {
+    width: 485px;
+    height: 120px;
+}
+/* персональные данные */
+.personal__date {
+    margin: 0 auto;
+    color: #263238e2;
+    font-size: 12px;
+}
+/* кнопка */
+/* цвет кнопки при наведении */
+.submit:hover {
+    background-color: #6ad797;
+}
